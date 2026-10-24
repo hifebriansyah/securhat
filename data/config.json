@@ -1,0 +1,282 @@
+{
+  "brand": {
+    "name": "Securhat",
+    "logo": {
+      "text": "Secur",
+      "accent": "hat"
+    },
+    "favicon": "assets/favicon.ico",
+    "touchIcon": "assets/apple-touch-icon.png"
+  },
+  "languages": {
+    "default": "id",
+    "available": [
+      {
+        "code": "id",
+        "label": "Indonesia",
+        "home": "./",
+        "docs": "privacy/"
+      },
+      {
+        "code": "en",
+        "label": "English",
+        "home": "en/",
+        "docs": "en/privacy/"
+      }
+    ]
+  },
+  "theme": {
+    "colors": {
+      "bg": "#1b1d23",
+      "panel": "#23262e",
+      "panelSoft": "#2a2d36",
+      "line": "#2f333d",
+      "text": "#e4e7ed",
+      "textSoft": "#cfd4de",
+      "muted": "#98a0af",
+      "accent": "#a47fd0",
+      "accentHover": "#c3a4e8",
+      "onAccent": "#14151a",
+      "danger": "#ff8a80",
+      "ink": "#14151a",
+      "speech": "#ffffff"
+    },
+    "typography": {
+      "fontFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+      "headingFamily": "system-ui, -apple-system, \"Segoe UI\", Roboto, sans-serif",
+      "comicFamily": "\"Comic Sans MS\", \"Comic Neue\", \"Chalkboard SE\", \"Marker Felt\", \"Segoe Print\", system-ui, sans-serif",
+      "baseSize": "16px",
+      "lineHeight": "1.65",
+      "headingWeight": "700",
+      "h1Size": "clamp(2rem, 6vw, 3.4rem)",
+      "h2Size": "clamp(1.5rem, 4vw, 2.1rem)"
+    },
+    "shape": {
+      "radius": "16px",
+      "radiusSmall": "10px",
+      "maxWidth": "1040px",
+      "gutter": "20px"
+    }
+  },
+  "navigation": [
+    {
+      "id": "features",
+      "target": "#features",
+      "label": {
+        "id": "Fitur",
+        "en": "Features"
+      }
+    },
+    {
+      "id": "ghosts",
+      "target": "#ghosts",
+      "label": {
+        "id": "Hantu",
+        "en": "Ghosts"
+      }
+    },
+    {
+      "id": "faq",
+      "target": "#faq",
+      "label": {
+        "id": "Tanya jawab",
+        "en": "FAQ"
+      }
+    },
+    {
+      "id": "contact",
+      "target": "#contact",
+      "label": {
+        "id": "Kontak",
+        "en": "Contact"
+      }
+    }
+  ],
+  "layout": {
+    "headerSticky": true,
+    "sections": [
+      {
+        "id": "hero",
+        "visible": true
+      },
+      {
+        "id": "stats",
+        "visible": true
+      },
+      {
+        "id": "features",
+        "visible": true
+      },
+      {
+        "id": "ghosts",
+        "visible": true
+      },
+      {
+        "id": "about",
+        "visible": true
+      },
+      {
+        "id": "faq",
+        "visible": true
+      },
+      {
+        "id": "contact",
+        "visible": true
+      }
+    ]
+  },
+  "animation": {
+    "enabled": true,
+    "respectReducedMotion": true,
+    "hero": {
+      "parallax": {
+        "enabled": true,
+        "pointerStrength": 18,
+        "scrollStrength": 0.18,
+        "backgroundDepth": 0.25,
+        "backgroundScale": 1.1
+      },
+      "characters": [
+        {
+          "id": "1",
+          "desktop": {
+            "left": 12,
+            "height": 38
+          },
+          "mobile": {
+            "left": 14,
+            "height": 27
+          },
+          "depth": 1.0,
+          "entranceDelayMs": 200
+        },
+        {
+          "id": "2",
+          "desktop": {
+            "left": 32,
+            "height": 45
+          },
+          "mobile": {
+            "left": 38,
+            "height": 30
+          },
+          "depth": 1.4,
+          "entranceDelayMs": 450
+        },
+        {
+          "id": "3",
+          "desktop": {
+            "left": 56,
+            "height": 42
+          },
+          "mobile": {
+            "left": 62,
+            "height": 29
+          },
+          "depth": 1.2,
+          "entranceDelayMs": 700
+        },
+        {
+          "id": "4",
+          "desktop": {
+            "left": 80,
+            "height": 46
+          },
+          "mobile": {
+            "left": 86,
+            "height": 32
+          },
+          "depth": 1.6,
+          "entranceDelayMs": 950
+        }
+      ]
+    },
+    "stage": {
+      "parallax": {
+        "enabled": true,
+        "pointerStrength": 12
+      }
+    },
+    "characters": {
+      "float": {
+        "amplitudePx": 9,
+        "tiltDeg": 0.6,
+        "durationMs": 3600,
+        "staggerMs": 450
+      },
+      "entrance": {
+        "durationMs": 1600,
+        "blurPx": 10
+      },
+      "glow": "drop-shadow(0 0 14px rgba(95, 207, 143, 0.55)) drop-shadow(0 6px 0 rgba(10, 11, 14, 0.35))"
+    }
+  },
+  "responsive": {
+    "breakpoints": {
+      "mobile": 640,
+      "tablet": 960
+    },
+    "hero": {
+      "backgroundSwitchAt": 700,
+      "minHeightVh": {
+        "desktop": 90,
+        "mobile": 94
+      },
+      "minHeightPx": {
+        "desktop": 720,
+        "mobile": 700
+      }
+    },
+    "columns": {
+      "stats": {
+        "mobile": 2,
+        "tablet": 4,
+        "desktop": 4
+      },
+      "features": {
+        "mobile": 1,
+        "tablet": 2,
+        "desktop": 3
+      },
+      "ghosts": {
+        "mobile": 1,
+        "tablet": 2,
+        "desktop": 2
+      }
+    },
+    "menu": {
+      "collapseBelow": 760
+    }
+  },
+  "social": [
+    {
+      "id": "email",
+      "label": "Email",
+      "url": "mailto:securhat@googlegroups.com",
+      "icon": "mail"
+    }
+  ],
+  "cta": {
+    "primary": {
+      "url": "https://omonomon.securhat.com/",
+      "external": true
+    },
+    "secondary": {
+      "url": "#ghosts",
+      "external": false
+    },
+    "contactEmail": "securhat@googlegroups.com"
+  },
+  "icons": {
+    "chat": "<path d=\"M7.9 20A9 9 0 1 0 4 16.1L2 22Z\"/>",
+    "games": "<line x1=\"6\" x2=\"10\" y1=\"11\" y2=\"11\"/><line x1=\"8\" x2=\"8\" y1=\"9\" y2=\"13\"/><line x1=\"15\" x2=\"15.01\" y1=\"12\" y2=\"12\"/><line x1=\"18\" x2=\"18.01\" y1=\"10\" y2=\"10\"/><path d=\"M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z\"/>",
+    "whispers": "<path d=\"M17.7 7.7a2.5 2.5 0 1 1 1.8 4.3H2\"/><path d=\"M9.6 4.6A2 2 0 1 1 11 8H2\"/><path d=\"M12.6 19.4A2 2 0 1 0 14 16H2\"/>",
+    "bond": "<path d=\"M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z\"/>",
+    "install": "<path d=\"M12 15V3\"/><path d=\"M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4\"/><path d=\"m7 10 5 5 5-5\"/>",
+    "lock": "<rect width=\"18\" height=\"11\" x=\"3\" y=\"11\" rx=\"2\" ry=\"2\"/><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"/>",
+    "mail": "<rect width=\"20\" height=\"16\" x=\"2\" y=\"4\" rx=\"2\"/><path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\"/>",
+    "chevron": "<path d=\"m6 9 6 6 6-6\"/>",
+    "close": "<path d=\"M18 6 6 18\"/><path d=\"m6 6 12 12\"/>",
+    "menu": "<line x1=\"4\" x2=\"20\" y1=\"12\" y2=\"12\"/><line x1=\"4\" x2=\"20\" y1=\"6\" y2=\"6\"/><line x1=\"4\" x2=\"20\" y1=\"18\" y2=\"18\"/>"
+  }
+}

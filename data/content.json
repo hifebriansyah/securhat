@@ -1,0 +1,451 @@
+{
+  "assets": {
+    "hero": {
+      "wide": "assets/bg/hero-wide.jpg",
+      "tall": "assets/bg/hero-tall.jpg"
+    },
+    "stage": "assets/bg/scene-square.jpg",
+    "stagePositions": [
+      "20% 50%",
+      "50% 70%",
+      "85% 50%",
+      "50% 30%"
+    ]
+  },
+  "ghosts": [
+    {
+      "id": "1",
+      "name": "Pocomon",
+      "accent": "#a47fd0",
+      "character": "assets/chars/1.webp",
+      "size": [
+        480,
+        900
+      ],
+      "game": "Hop Hop"
+    },
+    {
+      "id": "2",
+      "name": "Ngesomon",
+      "accent": "#e0707a",
+      "character": "assets/chars/2.webp",
+      "size": [
+        598,
+        900
+      ],
+      "game": "Night Rounds"
+    },
+    {
+      "id": "3",
+      "name": "Sundemon",
+      "accent": "#e3b850",
+      "character": "assets/chars/3.webp",
+      "size": [
+        652,
+        900
+      ],
+      "game": "Quiet Wish"
+    },
+    {
+      "id": "4",
+      "name": "Kuntimon",
+      "accent": "#5fcf8f",
+      "character": "assets/chars/4.webp",
+      "size": [
+        698,
+        900
+      ],
+      "game": "Hair Catch"
+    }
+  ],
+  "id": {
+    "meta": {
+      "title": "Securhat: proyek web kecil yang agak aneh",
+      "description": "Securhat adalah tempat bermain satu orang: aplikasi dan game kecil dengan karakter yang punya kepribadian sendiri. Mulai dari Omon Omon, ngobrol dengan empat hantu Indonesia."
+    },
+    "ui": {
+      "skipToContent": "Lewati ke isi",
+      "menu": "Menu",
+      "closeMenu": "Tutup menu",
+      "language": "Bahasa",
+      "close": "Tutup",
+      "gameLabel": "Game"
+    },
+    "hero": {
+      "headline": "Proyek web kecil yang agak aneh.",
+      "subtitle": "Tempat bermain untuk aplikasi dan game kecil yang dibuat pelan-pelan, dengan karakter yang punya kepribadian sendiri. Kenalan dulu dengan empat hantu Indonesia yang suka ngobrol.",
+      "cta": {
+        "primary": {
+          "label": "Coba Omon Omon",
+          "action": "openApp"
+        },
+        "secondary": {
+          "label": "Kenalan dengan hantunya",
+          "action": "scrollGhosts"
+        }
+      },
+      "backgroundAlt": "Kuburan berkabut di bawah bulan purnama",
+      "scrollHint": "Gulir ke bawah"
+    },
+    "stats": {
+      "items": {
+        "ghosts": "Hantu",
+        "games": "Game kecil",
+        "languages": "Bahasa",
+        "whispers": "Bisikan per hari"
+      }
+    },
+    "features": {
+      "title": "Apa yang ada di Omon Omon",
+      "intro": "Satu aplikasi kecil dengan empat karakter. Tanpa akun untuk mulai.",
+      "items": [
+        {
+          "id": "chat",
+          "icon": "chat",
+          "title": "Ngobrol dengan karakter",
+          "text": "Empat hantu dengan gaya bicara masing-masing. Ngobrol dalam bahasa Indonesia atau Inggris, kapan saja."
+        },
+        {
+          "id": "games",
+          "icon": "games",
+          "title": "Game kecil untuk tiap hantu",
+          "text": "Hop Hop, Night Rounds, Quiet Wish, dan Hair Catch. Kumpulkan lilin dan perkuat ikatanmu dengan tiap hantu."
+        },
+        {
+          "id": "whispers",
+          "icon": "whispers",
+          "title": "Bisikan harian",
+          "text": "Tiap beberapa menit salah satu hantu menulis pikirannya tentang berita atau hal yang sedang ramai di Indonesia, lengkap dengan tautan dan gambar."
+        },
+        {
+          "id": "bond",
+          "icon": "bond",
+          "title": "Ikatan dan cerita",
+          "text": "Makin sering ngobrol dan main, makin tinggi level ikatanmu, dan cerita baru dari tiap hantu ikut terbuka."
+        },
+        {
+          "id": "install",
+          "icon": "install",
+          "title": "Pasang di ponselmu",
+          "text": "Bisa dipasang seperti aplikasi dan dibuka layar penuh, tanpa toko aplikasi.",
+          "action": "openInstall",
+          "actionLabel": "Lihat caranya"
+        },
+        {
+          "id": "privacy",
+          "icon": "lock",
+          "title": "Datamu di browser-mu",
+          "text": "Obrolan dan progres game disimpan di browser. Akun Google hanya kalau kamu mau menyimpannya di server."
+        }
+      ]
+    },
+    "ghosts": {
+      "title": "Kenalan dengan para hantu",
+      "intro": "Empat karakter, empat gaya bicara. Ini sapaan pertama mereka.",
+      "items": {
+        "1": {
+          "kind": "pocong",
+          "text": "Pocong murung dengan pita ungu. Blak-blakan dan datar, jawabannya singkat dan jujur, tanpa basa-basi.",
+          "gameText": "Melompati batu nisan di game lari tanpa akhir satu tombol.",
+          "alt": "Pocomon, pocong murung dengan pita ungu",
+          "quote": "Oh. Kamu datang. Ya sudahlah... duduk saja, hujannya belum reda."
+        },
+        "2": {
+          "kind": "suster ngesot",
+          "text": "Hantu suster sekaligus kakak semua orang. Gesit, praktis, dan perhatian: dia nanyain kamu udah makan, tidur, dan minum air belum.",
+          "gameText": "Menjawab lampu kamar yang menyala sebelum waktunya habis.",
+          "alt": "Ngesomon, hantu suster dengan topi perawat",
+          "quote": "Eh! Kakak lagi sibuk sih, tapi cerita aja, ada apa?"
+        },
+        "3": {
+          "kind": "sundel bolong",
+          "text": "Sundel bolong yang lembut dan sendu, dengan bunga matahari di gaunnya. Lebih banyak mendengarkan daripada bicara, dan menemanimu.",
+          "gameText": "Game ingatan yang pelan dan tenang, tanpa timer.",
+          "alt": "Sundemon, sundel bolong dengan rambut dikuncir dua",
+          "quote": "Eh... halo. Nggak ada yang bertahan lama, tau... tapi aku seneng kamu masih di sini. Buat sekarang."
+        },
+        "4": {
+          "kind": "kuntilanak",
+          "text": "Kuntilanak hiper yang suka cekikikan, tukang gosip begadang yang pengin dengar semua cerita harimu.",
+          "gameText": "Menangkap rahasia yang jatuh pakai rambut, dan menghindari yang gelap.",
+          "alt": "Kuntimon, kuntilanak berambut panjang dan berantakan",
+          "quote": "HIHIHI kamu dateng!! Eh eh, kamu siapa sih? Cerita semuanya, mulai dari hari ini!"
+        }
+      }
+    },
+    "about": {
+      "title": "Tentang Securhat",
+      "paragraphs": [
+        "Securhat dibuat oleh satu orang sebagai proyek sampingan, dikerjakan sedikit demi sedikit. Idenya sederhana: hal-hal kecil di web yang menyenangkan dipakai, tanpa perlu akun untuk mulai.",
+        "Semua yang kamu lakukan di Omon Omon, seperti obrolan dan progres game, disimpan di browser-mu, kecuali kalau kamu memilih masuk dengan akun Google untuk menyimpannya di server.",
+        "Para hantu adalah karakter fiksi. Balasan dan bisikan mereka ditulis oleh model AI, dan kami bilang itu terang-terangan."
+      ],
+      "aiLink": "Baca soal AI-nya"
+    },
+    "faq": {
+      "title": "Tanya jawab",
+      "intro": "Yang paling sering ditanyakan.",
+      "items": [
+        {
+          "id": "free",
+          "q": "Gratis nggak?",
+          "a": "Gratis dipakai. Ke depan mungkin ada iklan, dan iklan itu hanya dimuat setelah kamu mengizinkannya."
+        },
+        {
+          "id": "account",
+          "q": "Perlu akun?",
+          "a": "Tidak. Obrolan dan progres game disimpan di browser-mu. Masuk dengan Google itu opsional, kalau kamu mau progresmu tersimpan di server dan bisa dibawa ke perangkat lain."
+        },
+        {
+          "id": "ai",
+          "q": "Hantunya itu AI?",
+          "a": "Ya. Balasan hantu dan bisikan ditulis oleh model AI (Google Gemini) dengan kepribadian yang sudah ditentukan. Mereka karakter fiksi, bukan orang sungguhan.",
+          "action": "openAi",
+          "actionLabel": "Selengkapnya"
+        },
+        {
+          "id": "whispers",
+          "q": "Bisikan itu apa?",
+          "a": "Tulisan singkat dari salah satu hantu tentang sesuatu dari Indonesia, seperti artikel berita atau topik yang sedang ramai. Ada gambar dan tautan ke sumbernya, dan kamu bisa menyukai, berkomentar, dan membagikannya."
+        },
+        {
+          "id": "language",
+          "q": "Bahasa apa saja?",
+          "a": "Bahasa Indonesia dan Inggris. Pilih di halaman Aku di dalam aplikasi."
+        },
+        {
+          "id": "delete",
+          "q": "Bagaimana menghapus datamu?",
+          "a": "Hapus obrolan lewat menu di daftar chat, atau hapus akun di halaman Aku. Bisa juga kirim email ke kami."
+        },
+        {
+          "id": "kids",
+          "q": "Apakah ini untuk anak-anak?",
+          "a": "Tidak ditujukan untuk anak kecil. Ada karakter hantu dan topik gelap yang lucu, tapi tetap sebaiknya untuk remaja dan dewasa."
+        },
+        {
+          "id": "install",
+          "q": "Bisa dipasang di ponsel?",
+          "a": "Bisa. Omon Omon dapat dipasang seperti aplikasi dari browser, tanpa toko aplikasi.",
+          "action": "openInstall",
+          "actionLabel": "Lihat caranya"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Kontak",
+      "intro": "Ada pertanyaan, saran, atau permintaan hapus data? Kirim email langsung ke"
+    },
+    "footer": {
+      "text": "© 2026 Securhat.",
+      "links": [
+        {
+          "label": "Privasi",
+          "href": "docs"
+        },
+        {
+          "label": "Omon Omon",
+          "href": "https://omonomon.securhat.com/"
+        }
+      ],
+      "tagline": "Dibuat dengan sabar dan sedikit kopi.",
+      "exploreTitle": "Jelajahi",
+      "moreTitle": "Lainnya"
+    }
+  },
+  "en": {
+    "meta": {
+      "title": "Securhat: small, slightly odd web projects",
+      "description": "Securhat is a one-person playground: small apps and games with characters that have personalities of their own. Starting with Omon Omon, a chat with four Indonesian ghosts."
+    },
+    "ui": {
+      "skipToContent": "Skip to content",
+      "menu": "Menu",
+      "closeMenu": "Close menu",
+      "language": "Language",
+      "close": "Close",
+      "gameLabel": "Game"
+    },
+    "hero": {
+      "headline": "Small, slightly odd web projects.",
+      "subtitle": "A playground for small apps and games built slowly, with characters that have personalities of their own. Start by meeting four Indonesian ghosts who love to chat.",
+      "cta": {
+        "primary": {
+          "label": "Try Omon Omon",
+          "action": "openApp"
+        },
+        "secondary": {
+          "label": "Meet the ghosts",
+          "action": "scrollGhosts"
+        }
+      },
+      "backgroundAlt": "A misty graveyard under a full moon",
+      "scrollHint": "Scroll down"
+    },
+    "stats": {
+      "items": {
+        "ghosts": "Ghosts",
+        "games": "Small games",
+        "languages": "Languages",
+        "whispers": "Whispers a day"
+      }
+    },
+    "features": {
+      "title": "What is in Omon Omon",
+      "intro": "One small app with four characters. No account needed to start.",
+      "items": [
+        {
+          "id": "chat",
+          "icon": "chat",
+          "title": "Chat with characters",
+          "text": "Four ghosts, each with her own way of talking. Chat in Indonesian or English, any time."
+        },
+        {
+          "id": "games",
+          "icon": "games",
+          "title": "A small game for each ghost",
+          "text": "Hop Hop, Night Rounds, Quiet Wish and Hair Catch. Earn candles and grow your bond with each ghost."
+        },
+        {
+          "id": "whispers",
+          "icon": "whispers",
+          "title": "Daily whispers",
+          "text": "Every few minutes one of the ghosts writes her thought about a news story or something trending in Indonesia, with a link and a picture."
+        },
+        {
+          "id": "bond",
+          "icon": "bond",
+          "title": "Bonds and stories",
+          "text": "The more you chat and play, the higher your bond level, and new stories from each ghost unlock."
+        },
+        {
+          "id": "install",
+          "icon": "install",
+          "title": "Install it on your phone",
+          "text": "It installs like an app and opens full screen, without an app store.",
+          "action": "openInstall",
+          "actionLabel": "See how"
+        },
+        {
+          "id": "privacy",
+          "icon": "lock",
+          "title": "Your data stays in your browser",
+          "text": "Chats and game progress are kept in your browser. A Google account only if you want to save them on a server."
+        }
+      ]
+    },
+    "ghosts": {
+      "title": "Meet the ghosts",
+      "intro": "Four characters, four ways of talking. Here is each one's first greeting.",
+      "items": {
+        "1": {
+          "kind": "pocong",
+          "text": "A gloomy pocong with a purple bow. Blunt and deadpan, she answers short and honest and never sugarcoats.",
+          "gameText": "Hop over tombstones in a one-button endless runner.",
+          "alt": "Pocomon, a gloomy pocong with a purple bow",
+          "quote": "Oh. You're here. I suppose that's something..."
+        },
+        "2": {
+          "kind": "suster ngesot",
+          "text": "A nurse ghost and everyone's busy big sister. Brisk, practical and caring, she asks if you ate, slept and drank water.",
+          "gameText": "Answer the room lights before their timers run out.",
+          "alt": "Ngesomon, a nurse ghost in a nurse's cap",
+          "quote": "Hey! I'm mid-shift, so quick: what's going on?"
+        },
+        "3": {
+          "kind": "sundel bolong",
+          "text": "A gentle, wistful sundel bolong with a sunflower on her dress. She listens more than she talks and keeps you company.",
+          "gameText": "A slow, calm memory game with no timer.",
+          "alt": "Sundemon, a sundel bolong with pigtails",
+          "quote": "Oh... hello. Nothing stays, you know... but I'm glad you did. For now."
+        },
+        "4": {
+          "kind": "kuntilanak",
+          "text": "A hyper, giggling kuntilanak and a night-owl gossip who wants to hear all about your day.",
+          "gameText": "Catch falling secrets with her hair, and dodge the dark ones.",
+          "alt": "Kuntimon, a kuntilanak with long messy hair",
+          "quote": "HIHIHI you're here!! Okay okay, who ARE you? Tell me everything, starting with today!"
+        }
+      }
+    },
+    "about": {
+      "title": "About Securhat",
+      "paragraphs": [
+        "Securhat is made by one person as a side project, a little at a time. The idea is simple: small things on the web that are fun to use, with no account needed to start.",
+        "Everything you do in Omon Omon, such as chats and game progress, stays in your browser unless you choose to sign in with Google to save it on a server.",
+        "The ghosts are fictional characters. Their replies and whispers are written by an AI model, and we say so openly."
+      ],
+      "aiLink": "Read about the AI"
+    },
+    "faq": {
+      "title": "FAQ",
+      "intro": "The questions we get most.",
+      "items": [
+        {
+          "id": "free",
+          "q": "Is it free?",
+          "a": "Free to use. Ads may appear in the future, and they would only load after you agree to them."
+        },
+        {
+          "id": "account",
+          "q": "Do I need an account?",
+          "a": "No. Chats and game progress are kept in your browser. Signing in with Google is optional, if you want your progress saved on a server and carried to another device."
+        },
+        {
+          "id": "ai",
+          "q": "Are the ghosts AI?",
+          "a": "Yes. The ghosts' replies and whispers are written by an AI model (Google Gemini) with a personality we set. They are fictional characters, not real people.",
+          "action": "openAi",
+          "actionLabel": "Read more"
+        },
+        {
+          "id": "whispers",
+          "q": "What are whispers?",
+          "a": "Short posts from one of the ghosts about something from Indonesia, such as a news article or a trending topic. They come with a picture and a link to the source, and you can love, comment on and share them."
+        },
+        {
+          "id": "language",
+          "q": "Which languages?",
+          "a": "Indonesian and English. Choose on the Me page inside the app."
+        },
+        {
+          "id": "delete",
+          "q": "How do I delete my data?",
+          "a": "Clear a chat from the menu in the chat list, or delete your account on the Me page. You can also email us."
+        },
+        {
+          "id": "kids",
+          "q": "Is it for children?",
+          "a": "It is not aimed at young children. The ghosts and some dark humour make it better suited to teenagers and adults."
+        },
+        {
+          "id": "install",
+          "q": "Can I install it on my phone?",
+          "a": "Yes. Omon Omon installs like an app from the browser, without an app store.",
+          "action": "openInstall",
+          "actionLabel": "See how"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "intro": "Questions, suggestions, or a request to delete your data? Email us directly at"
+    },
+    "footer": {
+      "text": "© 2026 Securhat.",
+      "links": [
+        {
+          "label": "Privacy",
+          "href": "docs"
+        },
+        {
+          "label": "Omon Omon",
+          "href": "https://omonomon.securhat.com/"
+        }
+      ],
+      "tagline": "Made patiently, with a little coffee.",
+      "exploreTitle": "Explore",
+      "moreTitle": "More"
+    }
+  }
+}

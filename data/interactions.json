@@ -1,0 +1,95 @@
+{
+  "actions": {
+    "openApp": { "type": "link", "ref": "cta.primary" },
+    "scrollGhosts": { "type": "scroll", "target": "#ghosts" },
+    "scrollContact": { "type": "scroll", "target": "#contact" },
+    "openInstall": { "type": "modal", "id": "install" },
+    "openAi": { "type": "modal", "id": "ai" }
+  },
+
+  "faq": {
+    "mode": "single",
+    "openFirst": true,
+    "animationMs": 240,
+    "keyboard": true
+  },
+
+  "modals": {
+    "install": {
+      "closeOnBackdrop": true,
+      "closeOnEscape": true,
+      "content": {
+        "id": {
+          "title": "Pasang Omon Omon di ponselmu",
+          "intro": "Omon Omon bisa dipasang seperti aplikasi langsung dari browser.",
+          "steps": [
+            "Buka omonomon.securhat.com di Chrome (Android) atau Safari (iPhone).",
+            "Android: tap menu ⋮, lalu “Instal aplikasi” atau “Tambahkan ke layar utama”.",
+            "iPhone: tap tombol Bagikan, lalu “Tambah ke Layar Utama”.",
+            "Buka dari ikon di layar utama, dan aplikasinya tampil layar penuh."
+          ],
+          "cta": { "label": "Buka Omon Omon", "action": "openApp" }
+        },
+        "en": {
+          "title": "Install Omon Omon on your phone",
+          "intro": "Omon Omon installs like an app straight from the browser.",
+          "steps": [
+            "Open omonomon.securhat.com in Chrome (Android) or Safari (iPhone).",
+            "Android: tap the ⋮ menu, then “Install app” or “Add to home screen”.",
+            "iPhone: tap the Share button, then “Add to Home Screen”.",
+            "Open it from the icon on your home screen, and it runs full screen."
+          ],
+          "cta": { "label": "Open Omon Omon", "action": "openApp" }
+        }
+      }
+    },
+    "ai": {
+      "closeOnBackdrop": true,
+      "closeOnEscape": true,
+      "content": {
+        "id": {
+          "title": "Soal AI-nya",
+          "intro": "Para hantu bukan orang sungguhan.",
+          "steps": [
+            "Balasan dan bisikan mereka ditulis oleh model AI (Google Gemini), dengan kepribadian yang kami tentukan untuk tiap hantu.",
+            "Pesan yang kamu kirim diproses oleh Google agar hantunya bisa membalas. Jangan membagikan data pribadi seperti nomor telepon, alamat, atau kata sandi.",
+            "Hantu bisa keliru atau mengarang. Jangan jadikan mereka sumber nasihat medis, hukum, atau keuangan.",
+            "Kalau kamu sedang berat, bicaralah dengan orang yang kamu percaya, atau cari bantuan di findahelpline.com."
+          ],
+          "cta": { "label": "Mengerti", "action": "close" }
+        },
+        "en": {
+          "title": "About the AI",
+          "intro": "The ghosts are not real people.",
+          "steps": [
+            "Their replies and whispers are written by an AI model (Google Gemini), with a personality we set for each ghost.",
+            "The messages you send are processed by Google so the ghost can reply. Do not share personal data such as phone numbers, addresses or passwords.",
+            "Ghosts can be wrong or make things up. Do not rely on them for medical, legal or financial advice.",
+            "If things feel heavy, talk to someone you trust, or find a helpline at findahelpline.com."
+          ],
+          "cta": { "label": "Got it", "action": "close" }
+        }
+      }
+    }
+  },
+
+  "counters": {
+    "triggerOnce": true,
+    "threshold": 0.4,
+    "items": [
+      { "id": "ghosts", "to": 4, "durationMs": 1200, "prefix": "", "suffix": "" },
+      { "id": "games", "to": 4, "durationMs": 1200, "prefix": "", "suffix": "" },
+      { "id": "languages", "to": 2, "durationMs": 1000, "prefix": "", "suffix": "" },
+      { "id": "whispers", "to": 96, "durationMs": 1800, "prefix": "", "suffix": "" }
+    ]
+  },
+
+  "scrollAnimations": {
+    "enabled": true,
+    "rules": [
+      { "selector": "[data-reveal='fade-up']", "effect": "fade-up", "durationMs": 700, "staggerMs": 90, "threshold": 0.15, "once": true },
+      { "selector": "[data-reveal='fade-in']", "effect": "fade-in", "durationMs": 900, "staggerMs": 0, "threshold": 0.2, "once": true },
+      { "selector": "[data-reveal='scale-in']", "effect": "scale-in", "durationMs": 600, "staggerMs": 80, "threshold": 0.3, "once": true }
+    ]
+  }
+}
