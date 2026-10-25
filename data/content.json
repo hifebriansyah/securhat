@@ -244,6 +244,10 @@
           "href": "docs"
         },
         {
+          "label": "Bisikan",
+          "href": "/feeds/"
+        },
+        {
           "label": "Omon Omon",
           "href": "https://omonomon.securhat.com/"
         }
@@ -437,6 +441,10 @@
         {
           "label": "Privacy",
           "href": "docs"
+        },
+        {
+          "label": "Whispers",
+          "href": "/feeds/"
         },
         {
           "label": "Omon Omon",
